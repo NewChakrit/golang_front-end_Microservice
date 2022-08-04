@@ -17,7 +17,8 @@ func main() {
 	if err != nil {
 		log.Panic(err)
 	}
-
+    
+	fmt.Println("Hello")
 }
 
 func render(w http.ResponseWriter, t string) {
